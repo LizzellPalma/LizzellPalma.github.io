@@ -16,7 +16,7 @@ $(function () {
       setInterval(main, 1000 / frameRate);
     }
     // Create walls - do not delete or modify this code
-    createPlatform(-50, -50, canvas.width + 100, 50); //top
+   function= createPlatform(-50, -50, canvas.width + 100, 50); //top
     createPlatform(-50, canvas.height - 10, canvas.width + 100, 200); //right
     createPlatform(-50, -50, 50, canvas.height + 500); //bottom
     createPlatform(canvas.width, -50, 50, canvas.height + 100);
@@ -34,6 +34,8 @@ $(function () {
     //////////ONLY CHANGE BELOW THIS POINT///////////
     /////////////////////////////////////////////////
 
+  
+
     // TODO 1
     // Create platforms
     // You must decide the x position, y position, width, and height of the platforms
@@ -48,7 +50,7 @@ $(function () {
     // Your collectable choices are 'database' 'diamond' 'grace' 'kennedi' 'max' and 'steve'; more can be added if you wish
     // example usage: createCollectable(type, x, y, gravity, bounce)
 
-
+    
 
     
     // TODO 3
@@ -57,7 +59,7 @@ $(function () {
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay, width, height)
 
-
+    
 
     
     /////////////////////////////////////////////////

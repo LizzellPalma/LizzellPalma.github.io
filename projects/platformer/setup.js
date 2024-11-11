@@ -6,6 +6,12 @@ const maxSpeed = 8; // maximum horizontal speed, not vertical
 const playerJumpStrength = 12; // this is subtracted from the speedY each jump
 const projectileSpeed = 8; // the speed of projectiles
 
+createPlatform(500, 300, 200, 20);
+//short but wide platrform located 500 pixels from the left of the screen adn 300 pixels from the top of the screen
+
+function = createCollectable("steve", 500, 300, 20, 0.5);
+function = createCollectable("grace", 500, 300); 
+function = createCollectable("kennedi", 500, 300, 20);
 /////////////////////////////////////////////////
 //////////ONLY CHANGE ABOVE THIS POINT///////////
 /////////////////////////////////////////////////
