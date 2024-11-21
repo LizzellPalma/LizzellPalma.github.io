@@ -16,7 +16,7 @@ $(function () {
       setInterval(main, 1000 / frameRate);
     }
     // Create walls - do not delete or modify this code
-    function= createPlatform(-50, -50, canvas.width + 100, 50); //top
+    createPlatform(-50, -50, canvas.width + 100, 50); //top
     createPlatform(-50, canvas.height - 10, canvas.width + 100, 200); //right
     createPlatform(-50, -50, 50, canvas.height + 500); //bottom
     createPlatform(canvas.width, -50, 50, canvas.height + 100);
@@ -28,7 +28,7 @@ $(function () {
      * Comment the function call out to remove the grid
      */
 
-      drawGrid();
+      // drawGrid();
 
     /////////////////////////////////////////////////
     //////////ONLY CHANGE BELOW THIS POINT///////////
@@ -43,11 +43,11 @@ $(function () {
     // You must decide the x position, y position, width, and height of the platforms
     // example usage: createPlatform(x,y,width,height)
 
-        createPlatform(500, 300, 200, 20);
-        createPlatform(300, 100, 200, 20);
-        createPlatform(300, 300, 200, 20);
-        createPlatform(400, 200, 100, 20);
-        createPlatform(400, 100, 300, 20);
+        createPlatform(400, 300, 200, 20)
+        createPlatform(300, 300, 200, 20)
+        createPlatform(200, 300, 200, 20)
+        createPlatform(100, 300, 200, 20)
+        createPlatform(50, 300, 200, 20)
     
     // TODO 2
     // Create collectables
